@@ -1,0 +1,49 @@
+{
+  "name": "coding-collaboration-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./Code/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.homedepot.com:sxw172p/coding-collaboration-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "jsxBracketSameLine": true,
+    "semi": true,
+    "printWidth": 165,
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "trailingComma": "es5",
+    "overrides": [
+      {
+        "files": [
+          "frontend/**/*.css",
+          "frontend/**/*.scss"
+        ],
+        "options": {
+          "singleQuote": false
+        }
+      },
+      {
+        "files": [
+          "config/**/*.yml"
+        ],
+        "options": {
+          "singleQuote": false
+        }
+      }
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
