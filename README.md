@@ -6,7 +6,6 @@
 
     Shawn Walcher | THE HOME DEPOT
     Software Engineer II, Space Product Team
-    shawn_walcher1@homedepot.com
 
 ## The workshop will be divided into 3 primary sections:
 
